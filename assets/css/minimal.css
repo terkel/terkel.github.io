@@ -19,7 +19,6 @@ body {
 hr {
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0 0;
-    height: 0;
     margin: 3.5em 0;
 }
 
@@ -97,7 +96,6 @@ pre {
 code,
 samp,
 kbd {
-    font-size: 1em;
     line-height: normal;
 }
 
