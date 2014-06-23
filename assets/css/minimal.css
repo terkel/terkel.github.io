@@ -173,6 +173,12 @@ a.reversefootnote {
 
 @font-face {
     font-family: "Yu Gothic";
+    font-weight: bold;
+    src: local("游ゴシック Light"), local("Yu Gothic Light"), local("YuGothic");
+}
+
+@font-face {
+    font-family: "Yu Gothic";
     font-weight: 300;
     src: local("游ゴシック Light"), local("Yu Gothic Light"), local("YuGothic");
 }
