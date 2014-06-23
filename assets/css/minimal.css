@@ -168,23 +168,23 @@ a.reversefootnote {
 @font-face {
     font-family: "Yu Gothic";
     font-weight: normal;
-    src: local("游ゴシック"), local("YuGothic");
+    src: local("游ゴシック"), local("Yu Gothic"), local("YuGothic");
 }
 
 @font-face {
     font-family: "Yu Gothic";
     font-weight: 300;
-    src: local("游ゴシック Light"), local("YuGothic");
+    src: local("游ゴシック Light"), local("Yu Gothic Light"), local("YuGothic");
 }
 
 @font-face {
     font-family: "Yu Mincho";
     font-weight: normal;
-    src: local("游明朝"), local("YuMincho");
+    src: local("游明朝"), local("Yu Mincho"), local("YuMincho");
 }
 
 @font-face {
     font-family: "Yu Mincho";
     font-weight: 300;
-    src: local("游明朝 Light"), local("YuMincho");
+    src: local("游明朝 Light"), local("Yu Mincho Light"), local("YuMincho");
 }
