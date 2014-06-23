@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: "Hiragino Mincho ProN", "游明朝", "Open Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Open Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
     font-size: 100%;
     line-height: 1.75;
 }
@@ -25,7 +25,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6, em, b {
-    font-family: "Open Sans", "Hiragino Kaku Gothic ProN", "游ゴシック", "Meiryo", sans-serif;
+    font-family: "Open Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
 }
 
 h1 {
