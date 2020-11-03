@@ -147,15 +147,16 @@ figure > img {
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-}
-
-img + figcaption {
-    font-size: calc(1rem * 8 / 10);
-    line-height: calc(1.25em / (8 / 10));
+    box-shadow: 0 0 0 1px var(--divider-color);
 }
 
 figure p {
     margin: 0;
+}
+
+figcaption {
+    font-size: calc(1rem * 8 / 10);
+    line-height: calc(1.25em / (8 / 10));
 }
 
 pre {
