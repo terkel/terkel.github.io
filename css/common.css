@@ -298,3 +298,14 @@ a[href^="#fn:"] {
 .Colophon td {
     padding: 0 0 0 1em;
 }
+
+:target {
+    scroll-margin-top: var(--body-leading);
+    animation-name: target-fade;
+    animation-duration: 2s;
+}
+
+@keyframes target-fade {
+    from { background: yellow; }
+    to { background: transparent; }
+}
