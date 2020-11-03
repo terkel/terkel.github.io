@@ -283,14 +283,21 @@ a[href^="#fn:"] {
 }
 
 .Colophon {
+    border-collapse: collapse;
     margin-block-start: var(--body-leading);
     margin-block-end: var(--body-leading);
+}
+
+.Colophon th,
+.Colophon td {
+    vertical-align: baseline;
 }
 
 .Colophon th {
     font-weight: inherit;
     padding: 0;
     text-align: right;
+    white-space: nowrap;
 }
 
 .Colophon td {
