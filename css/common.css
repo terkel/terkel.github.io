@@ -172,6 +172,7 @@ figure p {
 :not(blockquote) + figcaption {
     font-size: calc(1rem * 8 / 10);
     line-height: calc(1.25em / (8 / 10));
+    padding-bottom: 0.25rem;
 }
 
 pre {
