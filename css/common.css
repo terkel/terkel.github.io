@@ -169,7 +169,7 @@ figure p {
     margin: 0;
 }
 
-figcaption {
+:not(blockquote) + figcaption {
     font-size: calc(1rem * 8 / 10);
     line-height: calc(1.25em / (8 / 10));
 }
