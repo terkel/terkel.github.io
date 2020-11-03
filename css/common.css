@@ -143,7 +143,7 @@ figure {
     margin-inline-end: 0;
 }
 
-figure > img {
+figure img {
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
