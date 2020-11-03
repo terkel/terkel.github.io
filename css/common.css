@@ -14,6 +14,8 @@
     --h2-font-weight: 200;
     --h3-font-family: "TazuganeGothicStdN-Medium", sans-serif;
     --h3-font-weight: 600;
+    --h4-font-family: "TazuganeGothicStdN-Medium", sans-serif;
+    --h4-font-weight: 600;
     --divider-color: hsla(0, 0%, 0%, 12%);
 }
 
@@ -90,6 +92,19 @@ h3 {
     font-kerning: normal;
     margin-block-start: calc(var(--body-leading) * 2);
     margin-block-end: var(--body-leading);
+}
+
+h4 {
+    font-family: var(--h4-font-family);
+    font-weight: var(--h4-font-weight);
+    font-size: calc(var(--body-font-size) * 8 / 9);
+    line-height: calc(1.75em / (8 / 9));
+    margin-block-start: var(--body-leading);
+    margin-block-end: 0;
+}
+
+h4 + p {
+    margin-block-start: 0;
 }
 
 p {
