@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+:root {
+    --body-font-family: "TazuganeGothicStdN-Light", sans-serif;
+    --body-font-weight: 300;
+    --body-font-family-bold: "TazuganeGothicStdN-Medium", sans-serif;
+    --body-font-weight-bold: 600;
+    --body-font-size: 1rem;
+    --body-line-height: 1.75;
+    --body-leading: calc(var(--body-font-size) * var(--body-line-height));
+    --h1-font-family: "TazuganeGothicStdN-Medium", sans-serif;
+    --h1-font-weight: 600;
+    --h2-font-family: "TazuganeGothicStdN-Thin", sans-serif;
+    --h2-font-weight: 200;
+    --h3-font-family: "TazuganeGothicStdN-Medium", sans-serif;
+    --h3-font-weight: 600;
+    --divider-color: hsla(0, 0%, 0%, 12%);
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    font-kerning: none;
+    line-break: normal;
+    overflow-wrap: break-word;
+    hanging-punctuation: allow-end;
+    -webkit-text-size-adjust: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(0, 0%, 13%);
+}
+
+@media (orientation: portrait) {
+    @media (min-width: 20em) { body { width: 18em; }}
+    @media (min-width: 22.5em) { body { width: 20em; }}
+    @media (min-width: 25em) { body { width: 22em; }}
+    @media (min-width: 30em) { body { width: 26em; }}
+    @media (min-width: 37.5em) { body { width: 32em; }}
+    @media (min-width: 48em) { body { width: 40em; }}
+}
+
+@media (orientation: landscape) {
+    @media (min-width: 30em) { body { width: 24em; }}
+    @media (min-width: 35em) { body { width: 28em; }}
+    @media (min-width: 40em) { body { width: 32em; }}
+    @media (min-width: 45em) { body { width: 36em; }}
+}
+
+@media (min-width: 50em) { body { width: 40em; }}
+
+h1 {
+    box-sizing: border-box;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    font-feature-settings: "palt" 1;
+    font-kerning: normal;
+    font-size: calc(var(--body-font-size) * 8 / 5);
+    line-height: calc(2.25em / (8 / 5));
+    min-block-size: calc(var(--body-leading) * 3);
+    padding-block-end: 0.25rem;
+    margin-block-start: calc(var(--body-leading) * 2);
+    margin-block-end: var(--body-leading);
+}
+
+h2 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    font-family: var(--h2-font-family);
+    font-weight: var(--h2-font-weight);
+    font-size: calc(var(--body-font-size) * 8 / 5);
+    line-height: calc(2.25em / (8 / 5));
+    font-feature-settings: "palt" 1;
+    font-kerning: normal;
+    min-block-size: calc(var(--body-leading) * 3);
+    padding-block-end: 0.25rem;
+    margin-block-start: calc(var(--body-leading) * 2);
+    margin-block-end: var(--body-leading);
+}
+
+h3 {
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    font-size: calc(var(--body-font-size) * 8 / 7);
+    line-height: calc(1.75em / (8 / 7));
+    font-feature-settings: "palt" 1;
+    font-kerning: normal;
+    margin-block-start: calc(var(--body-leading) * 2);
+    margin-block-end: var(--body-leading);
+}
+
+p {
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+}
+
+ol,
+ul {
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+    padding-inline-start: 2rem;
+}
+
+hr {
+    border: 0;
+    color: inherit;
+    overflow: visible;
+    text-align: center;
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+}
+
+hr::before {
+    content: "\ff0a";
+}
+
+blockquote {
+    margin: 0;
+    padding-inline-start: calc(var(--body-font-size) * 2);
+    position: relative;
+}
+
+blockquote::before {
+    content: "";
+    position: absolute;
+    left: 0.125em;
+    top: 0.25em;
+    bottom: 0.25em;
+    border-left: 1px solid var(--divider-color);
+}
+
+blockquote + figcaption {
+    text-align: right;
+}
+
+figure {
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+figure > img {
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+img + figcaption {
+    font-size: calc(1rem * 8 / 10);
+    line-height: calc(1.25em / (8 / 10));
+}
+
+figure p {
+    margin: 0;
+}
+
+pre {
+    font-size: calc(var(--body-font-size) * 8 / 9);
+    line-height: calc(1.5em / (8 / 9));
+    white-space: pre-wrap;
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+    padding-block-start: 0.25rem;
+    padding-block-end: 0.25rem;
+    padding-inline-start: 2rem;
+}
+
+code,
+samp,
+kbd {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1em;
+    line-height: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+em, b, strong {
+    font-family: var(--body-font-family-bold);
+}
+
+sub,
+sup {
+  font-size: 80%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-underline-offset: 0.125em;
+}
+
+a[href^="#fn:"] {
+    font-size: 80%;
+    line-height: 0;
+    padding: 0 0.25em;
+    position: relative;
+    text-decoration: none;
+    top: -0.5em;
+    vertical-align: baseline;
+}
+
+.ArticleMeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-block-size: calc(var(--body-leading) * 3);
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+    text-align: right;
+}
+
+.ArticleMeta p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Footnotes {
+    font-size: calc(1rem * 8 / 10);
+    line-height: calc(1.25em / (8 / 10));
+}
+
+.Footnotes a[href^="#fnref:"] {
+    text-decoration: none;
+}
+
+.PageFooter {
+    font-size: calc(1rem * 8 / 10);
+    line-height: calc(1.25em / (8 / 10));
+    margin-block-start: calc(var(--body-leading) * 3);
+    margin-block-end: calc(var(--body-leading) * 5);
+}
+
+.PageFooter::before {
+    content: "";
+    display: block;
+    block-size: var(--body-leading);
+    margin-block-end: var(--body-leading);
+    background-image: linear-gradient(var(--divider-color), var(--divider-color) 100%);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+}
+
+.PageFooter > * {
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+}
+
+.Colophon {
+    margin-block-start: var(--body-leading);
+    margin-block-end: var(--body-leading);
+}
+
+.Colophon th {
+    font-weight: inherit;
+    padding: 0;
+    text-align: right;
+}
+
+.Colophon td {
+    padding: 0 0 0 1em;
+}
