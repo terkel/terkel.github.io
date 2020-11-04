@@ -16,6 +16,9 @@
     --h3-font-weight: 600;
     --h4-font-family: "TazuganeGothicStdN-Medium", sans-serif;
     --h4-font-weight: 600;
+    --code-font-family: "Source Code Pro", monospace;
+    --code-font-weight-regular: 400;
+    --code-font-weight-bold: 700;
     --divider-color: hsla(0, 0%, 0%, 12%);
 }
 
@@ -191,8 +194,9 @@ pre {
 code,
 samp,
 kbd {
-    font-family: "Source Code Pro", monospace;
-    font-weight: 400;
+    --code-font-weight: var(--code-font-weight-regular);
+    font-family: var(--code-font-family);
+    font-weight: var(--code-font-weight);
     font-size: 1em;
     line-height: 0;
 }
@@ -202,6 +206,7 @@ em {
 }
 
 em, b, strong {
+    --code-font-weight: var(--code-font-weight-bold);
     font-family: var(--body-font-family-bold);
     font-weight: var(--body-font-weight-bold);
 }
