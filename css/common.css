@@ -2,23 +2,22 @@
 
 :root {
     --body-font-family: "TazuganeGothicStdN-Light", sans-serif;
-    --body-font-weight: 300;
+    --body-font-weight: 400;
     --body-font-family-bold: "TazuganeGothicStdN-Medium", sans-serif;
-    --body-font-weight-bold: 600;
+    --body-font-weight-bold: 700;
     --body-font-size: 1rem;
     --body-line-height: 1.75;
     --body-leading: calc(var(--body-font-size) * var(--body-line-height));
     --h1-font-family: "TazuganeGothicStdN-Medium", sans-serif;
-    --h1-font-weight: 600;
+    --h1-font-weight: 700;
     --h2-font-family: "TazuganeGothicStdN-Thin", sans-serif;
     --h2-font-weight: 200;
     --h3-font-family: "TazuganeGothicStdN-Medium", sans-serif;
-    --h3-font-weight: 600;
+    --h3-font-weight: 700;
     --h4-font-family: "TazuganeGothicStdN-Medium", sans-serif;
-    --h4-font-weight: 600;
+    --h4-font-weight: 700;
     --code-font-family: "Source Code Pro", monospace;
-    --code-font-weight-regular: 400;
-    --code-font-weight-bold: 700;
+    --code-font-weight: inherit;
     --divider-color: hsla(0, 0%, 0%, 12%);
 }
 
@@ -195,7 +194,7 @@ code,
 samp,
 kbd {
     font-family: var(--code-font-family);
-    font-weight: var(--code-font-weight, var(--code-font-weight-regular));
+    font-weight: var(--code-font-weight);
     font-size: 1em;
     line-height: 0;
 }
@@ -205,7 +204,6 @@ em {
 }
 
 em, b, strong {
-    --code-font-weight: var(--code-font-weight-bold);
     font-family: var(--body-font-family-bold);
     font-weight: var(--body-font-weight-bold);
 }
