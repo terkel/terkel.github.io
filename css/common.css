@@ -194,9 +194,8 @@ pre {
 code,
 samp,
 kbd {
-    --code-font-weight: var(--code-font-weight-regular);
     font-family: var(--code-font-family);
-    font-weight: var(--code-font-weight);
+    font-weight: var(--code-font-weight, var(--code-font-weight-regular));
     font-size: 1em;
     line-height: 0;
 }
