@@ -199,6 +199,12 @@ kbd {
     line-height: 0;
 }
 
+code *,
+samp *,
+kbd * {
+    font-family: inherit;
+}
+
 em {
     font-style: normal;
 }
