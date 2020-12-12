@@ -16,8 +16,10 @@
     --h3-font-weight: 700;
     --h4-font-family: "TazuganeGothicStdN-Medium", sans-serif;
     --h4-font-weight: 700;
-    --code-font-family: "Source Code Pro", monospace;
-    --code-font-weight: inherit;
+    --code-font-family: "UniversNextTypewrtrPro-Rg", "TazuganeGothicStdN-Light", monospace;
+    --code-font-weight: 400;
+    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "TazuganeGothicStdN-Medium", monospace;
+    --code-font-weight-bold: 700;
     --divider-color: hsla(0, 0%, 0%, 12%);
 }
 
@@ -199,10 +201,14 @@ kbd {
     line-height: 0;
 }
 
-code *,
-samp *,
-kbd * {
-    font-family: inherit;
+code em, code b, code strong,
+samp em, samp b, samp strong,
+kbd em, kbd b, kbd strong,
+em code, em kbd, em samp,
+b code, b kbd, b samp,
+strong code, strong kbd, strong samp {
+    font-family: var(--code-font-family-bold);
+    font-weight: var(--code-font-weight-bold);
 }
 
 em {
