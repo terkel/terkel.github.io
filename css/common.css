@@ -20,6 +20,7 @@
     --code-font-weight: 400;
     --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "TazuganeGothicStdN-Medium", monospace;
     --code-font-weight-bold: 700;
+    --code-color: darkslategray;
     --divider-color: hsla(0, 0%, 0%, 12%);
 }
 
@@ -199,6 +200,7 @@ kbd {
     font-weight: var(--code-font-weight);
     font-size: 1em;
     line-height: 0;
+    color: var(--code-color);
 }
 
 code em, code b, code strong,
