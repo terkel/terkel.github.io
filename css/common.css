@@ -151,7 +151,7 @@ blockquote::before {
     left: 0.125em;
     top: 0.25em;
     bottom: 0.25em;
-    border-left: 1px solid var(--divider-color);
+    border-left: 2px solid var(--divider-color);
 }
 
 blockquote + figcaption {
