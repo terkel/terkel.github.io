@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 :root {
-    --body-font-family: "TazuganeGothicStdN-Light", sans-serif;
-    --body-font-weight: 400;
-    --body-font-family-bold: "TazuganeGothicStdN-Medium", sans-serif;
-    --body-font-weight-bold: 700;
+    --body-font-family: "Tazugane Gothic", sans-serif;
+    --body-font-weight: 300;
+    --body-font-family-bold: "Tazugane Gothic", sans-serif;
+    --body-font-weight-bold: 500;
     --body-font-size: 1rem;
     --body-line-height: 1.75;
     --body-leading: calc(var(--body-font-size) * var(--body-line-height));
-    --h1-font-family: "TazuganeGothicStdN-Medium", sans-serif;
-    --h1-font-weight: 700;
-    --h2-font-family: "TazuganeGothicStdN-Thin", sans-serif;
+    --h1-font-family: "Tazugane Gothic", sans-serif;
+    --h1-font-weight: 500;
+    --h2-font-family: "Tazugane Gothic", sans-serif;
     --h2-font-weight: 200;
-    --h3-font-family: "TazuganeGothicStdN-Medium", sans-serif;
-    --h3-font-weight: 700;
-    --h4-font-family: "TazuganeGothicStdN-Medium", sans-serif;
-    --h4-font-weight: 700;
-    --code-font-family: "UniversNextTypewrtrPro-Rg", "TazuganeGothicStdN-Light", monospace;
+    --h3-font-family: "Tazugane Gothic", sans-serif;
+    --h3-font-weight: 500;
+    --h4-font-family: "Tazugane Gothic", sans-serif;
+    --h4-font-weight: 500;
+    --code-font-family: "Univers Next Typewriter", monospace;
     --code-font-weight: 400;
-    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "TazuganeGothicStdN-Medium", monospace;
-    --code-font-weight-bold: 700;
+    --code-font-family: "Univers Next Typewriter", monospace;
+    --code-font-weight-bold: 600;
     --code-color: darkslategray;
     --divider-color: hsla(0, 0%, 0%, 12%);
 }
