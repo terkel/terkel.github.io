@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --body-font-family: "A+mfCv-TPスカイ セミクラシック ロー L", sans-serif;
+    --body-font-family: "A+mfCv-TPスカイ セミクラシック ロー R", sans-serif;
     --body-font-weight: 400;
     --body-font-family-bold: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --body-font-weight-bold: 700;
@@ -16,7 +16,7 @@
     --h3-font-weight: 700;
     --h4-font-family: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --h4-font-weight: 700;
-    --code-font-family: "UniversNextTypewrtrPro-Rg", "A+mfCv-TPスカイ セミクラシック ロー L", monospace;
+    --code-font-family: "UniversNextTypewrtrPro-Rg", "A+mfCv-TPスカイ セミクラシック ロー R", monospace;
     --code-font-weight: 400;
     --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "A+mfCv-TPスカイ セミクラシック ロー B", monospace;
     --code-font-weight-bold: 700;
