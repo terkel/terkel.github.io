@@ -6,7 +6,7 @@
     --body-font-family-bold: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --body-font-weight-bold: 700;
     --body-font-size: 1rem;
-    --body-line-height: 1.75;
+    --body-line-height: 1.875;
     --body-leading: calc(var(--body-font-size) * var(--body-line-height));
     --h1-font-family: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --h1-font-weight: 700;
@@ -34,6 +34,9 @@ body {
     line-break: normal;
     overflow-wrap: break-word;
     hanging-punctuation: allow-end;
+    text-spacing-trim: trim-start;
+    text-autospace: normal;
+    hyphens: auto;
     -webkit-text-size-adjust: 100%;
     width: 90%;
     margin: auto;
