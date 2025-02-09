@@ -16,9 +16,9 @@
     --h3-font-weight: 700;
     --h4-font-family: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --h4-font-weight: 700;
-    --code-font-family: "UniversNextTypewrtrPro-Rg", "A+mfCv-TPスカイ セミクラシック ロー R", monospace;
+    --code-font-family: "Menlo", "Consolas", "A+mfCv-TPスカイ セミクラシック ロー R", monospace;
     --code-font-weight: 400;
-    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "A+mfCv-TPスカイ セミクラシック ロー B", monospace;
+    --code-font-family-bold: "Menlo", "Consolas", "A+mfCv-TPスカイ セミクラシック ロー B", monospace;
     --code-font-weight-bold: 700;
     --code-color: darkslategray;
     --divider-color: hsla(0, 0%, 0%, 12%);
