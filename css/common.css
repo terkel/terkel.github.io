@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 :root {
-    --body-font-family: "TazuganeGothicStdN-Light", sans-serif;
+    --body-font-family: "A+mfCv-TPスカイ セミクラシック ロー R", sans-serif;
     --body-font-weight: 400;
-    --body-font-family-bold: "TazuganeGothicStdN-Medium", sans-serif;
+    --body-font-family-bold: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --body-font-weight-bold: 700;
     --body-font-size: 1rem;
     --body-line-height: 1.75;
     --body-leading: calc(var(--body-font-size) * var(--body-line-height));
-    --h1-font-family: "TazuganeGothicStdN-Medium", sans-serif;
+    --h1-font-family: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --h1-font-weight: 700;
     --h2-font-family: "TazuganeGothicStdN-Thin", sans-serif;
     --h2-font-weight: 200;
-    --h3-font-family: "TazuganeGothicStdN-Medium", sans-serif;
+    --h3-font-family: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --h3-font-weight: 700;
-    --h4-font-family: "TazuganeGothicStdN-Medium", sans-serif;
+    --h4-font-family: "A+mfCv-TPスカイ セミクラシック ロー B", sans-serif;
     --h4-font-weight: 700;
-    --code-font-family: "UniversNextTypewrtrPro-Rg", "TazuganeGothicStdN-Light", monospace;
+    --code-font-family: "UniversNextTypewrtrPro-Rg", "A+mfCv-TPスカイ セミクラシック ロー R", monospace;
     --code-font-weight: 400;
-    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "TazuganeGothicStdN-Medium", monospace;
+    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "A+mfCv-TPスカイ セミクラシック ロー B", monospace;
     --code-font-weight-bold: 700;
     --code-color: darkslategray;
     --divider-color: hsla(0, 0%, 0%, 12%);
