@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 :root {
-    --body-font-family: "A+mfCv-TPスカイ クラシック ローコントラスト R", sans-serif;
+    --body-font-family: "A+mfCv-TPゴシック L StdN", sans-serif;
     --body-font-weight: 400;
-    --body-font-family-bold: "A+mfCv-TPスカイ クラシック ローコントラスト B", sans-serif;
+    --body-font-family-bold: "A+mfCv-TPゴシック B StdN", sans-serif;
     --body-font-weight-bold: 700;
     --body-font-size: 1rem;
     --body-line-height: 1.75;
     --body-leading: calc(var(--body-font-size) * var(--body-line-height));
-    --h1-font-family: "A+mfCv-TPスカイ クラシック ローコントラスト B", sans-serif;
+    --h1-font-family: "A+mfCv-TPゴシック B StdN", sans-serif;
     --h1-font-weight: 700;
     --h2-font-family: "TazuganeGothicStdN-Thin", sans-serif;
     --h2-font-weight: 200;
-    --h3-font-family: "A+mfCv-TPスカイ クラシック ローコントラスト B", sans-serif;
+    --h3-font-family: "A+mfCv-TPゴシック B StdN", sans-serif;
     --h3-font-weight: 700;
-    --h4-font-family: "A+mfCv-TPスカイ クラシック ローコントラスト B", sans-serif;
+    --h4-font-family: "A+mfCv-TPゴシック B StdN", sans-serif;
     --h4-font-weight: 700;
-    --code-font-family: "UniversNextTypewrtrPro-Rg", "A+mfCv-TPスカイ クラシック ローコントラスト R", monospace;
+    --code-font-family: "UniversNextTypewrtrPro-Rg", "A+mfCv-TPゴシック L StdN", monospace;
     --code-font-weight: 400;
-    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "A+mfCv-TPスカイ クラシック ローコントラスト B", monospace;
+    --code-font-family-bold: "UniversNextTypewrtrPro-Bd", "A+mfCv-TPゴシック B StdN", monospace;
     --code-font-weight-bold: 700;
     --code-color: darkslategray;
     --divider-color: hsla(0, 0%, 0%, 12%);
